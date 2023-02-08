@@ -3,7 +3,7 @@ run-name: ${{ github.actor }} is syncing puppeteer example scripts
 on: 
   push:
     branches:
-      - master
+      - main
     paths: 
       - 'scriptExamples.js'
 jobs:
