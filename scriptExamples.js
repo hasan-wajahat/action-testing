@@ -369,22 +369,5 @@ async function testPage(page) {
 }
     
 module.exports = testPage;`,
-  },
-  {
-    name: 'Text Search',
-    descriptionWithLink: () => (
-      <span>
-        This script uses <a target="_blank" href="https://pptr.dev/api/puppeteer.page.waitforxpath">waitForXpath</a> to
-        search for the text “Troubleshooting Just Got Easier” on the page.
-      </span>
-    ),
-    script: `
-async function testPage(page) {
-  await page.goto('https://sematext.com/');
-  await page.waitForXPath('//*[contains(., "Troubleshooting Just Got Easier")]');
-  await page.screenshot({ path: 'screenshot.jpg' });
-}
-    
-module.exports = testPage;`,
-  },
+  }
 ];
