@@ -365,7 +365,7 @@ async function testPage(page) {
     else request.continue();
   });
   await page.goto('https://sematext.com/');
-  await page.screenshot({ path: 'screenshot.jpg' });
+  await page.screenshot({ path: 'screenshot1.jpg' });
 }
     
 module.exports = testPage;`,
