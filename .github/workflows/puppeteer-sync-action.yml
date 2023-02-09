@@ -21,8 +21,8 @@ jobs:
           API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
         with:
           source_file: 'scriptExamples.js'
-          destination_repo: 'hasan-wajahat/temp',
-          destination_branch: 'master',
-          user_email: 'hasan_wajahat@hotmail.com',
-          user_name: 'hasan-wajahat',
+          destination_repo: 'hasan-wajahat/temp'
+          destination_branch: 'master'
+          user_email: 'hasan_wajahat@hotmail.com'
+          user_name: 'hasan-wajahat'
           commit_message: 'syncing scriptExamples.js'
